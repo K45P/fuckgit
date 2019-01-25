@@ -40,6 +40,7 @@ func fibbonacci_calc(factor chan int, result  chan int){
 
 //tesp
 //loooooool
+//dette er på branch test
 
 
 
