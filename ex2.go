@@ -53,5 +53,5 @@ func main() {
 	go fibbonacci_sender(factor, result, finished);
 	go fibbonacci_calc(factor, result);
 	<-finished;
-	fmt.Println("Program complete");
+	fmt.Println("ballestein");
 }
