@@ -40,6 +40,7 @@ func fibbonacci_calc(factor chan int, result  chan int){
 
 //tesp
 //loooooool
+//dette er på branch test
 
 
 
@@ -52,5 +53,5 @@ func main() {
 	go fibbonacci_sender(factor, result, finished);
 	go fibbonacci_calc(factor, result);
 	<-finished;
-	fmt.Println("Program complete");
+	fmt.Println("ballestein");
 }
